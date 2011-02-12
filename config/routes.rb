@@ -1,4 +1,6 @@
 Commune::Application.routes.draw do
+  resources :users
+
   resources :high_scores
 
   get "greetings/hello"
